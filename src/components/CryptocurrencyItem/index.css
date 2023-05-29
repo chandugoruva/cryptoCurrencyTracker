@@ -1,0 +1,42 @@
+.logo {
+  height: 28px;
+  width: 28px;
+  margin-right: 20px;
+}
+.logo-paragraph {
+  color: #ffffff;
+  font-size: 10px;
+  margin-right: 20px;
+}
+.li-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.usd-paragraph {
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 10px;
+}
+.usd-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 767px) {
+  .usd-paragraph {
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  .logo-paragraph {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
